@@ -5,4 +5,5 @@ ENV PLAYWRIGHT_CHROMIUM_ARGS=--no-sandbox
 
 EXPOSE 3000
 
-CMD ["yarn", "start"]
+CMD ["node", "dist/index.js"]
+
